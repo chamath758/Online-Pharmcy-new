@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<title>nav</title>
+	<link rel="stylesheet" href="css/style.css"><!-- link css file -->
+	<link rel="stylesheet" href="css/Faqs.css"><!-- link css file -->
+    <script src="Js/Faqs.js"> </script>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"><!--Google font -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  <!--Bootstrap  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+	 
+</head>
+<body>
+<div class="login-bar">
+			 <center>
+				<img src="images/logo123.png" width="95" />
+								<h1 style="color:white;">  MedPlus Online Delivery </h1> 
+
+				
+			 </center>
+		        <div style="text-align: left;margin-left:18px;">
+		 
+		 
+		        </div >
+		       <a href="default.asp" target="_blank"class="login">Register</a> 
+		       <a href="default.asp" target="_blank"class="login">Login</a> 
+    </div>
+	
+	<div class="navbar">
+			<div class="topnav">
+				   <a  href="#home"><i class="fa fa-fw fa-home"></i>Home</a>
+				  <a href="#about"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Shop</a>
+				  <a href="e channling.html"><i class="fa fa-etsy" aria-hidden="true"></i>E-Channeling</a>
+				  <a href="contact us.html"><i class="fa fa-phone" ></i>Contact Us</a>
+				  <a href="aboutus1.html"><i class="fa fa-fw fa-envelope"></i>About Us</a>
+				  				  <a href="cart1.html"><i class="fa fa-etsy1" aria-hidden="true"></i>Shopping cart</a>
+				  				  				  <a class="active" href="Faqs.html">FAQs</a>
+
+				  
+						  <div class="search-container">
+									<form action="/action_page.php">
+										  <input type="text" placeholder="Search.." name="search">
+										  <button type="submit"><i class="fa fa-search"></i></button>
+									</form>
+						  </div>
+						  
+				   <img src="images/card.png" alt="cart" width="35px" height="35px">
+		 
+			</div>
+		
+		
+		 
+	</div>
+
+
+<div class="bro">
+
+<div class="faqs">
+	<button class="accordion">How do I find the item I am looking for?</button>
+<div id="x" class="panel">
+  <p>We’ve worked hard to make our website as simple as possible to use. If you know the name of the product you’re looking for, use the search function on our homepage. If you don’t, you can easily search by the time of condition you’re looking to treat. You can also use the top navigation bar to  'Shop by Condition' to see a full A-Z list of the medicines that we can supply online and the medical conditions that we can treat.</p>
+</div>
+
+<button class="accordion">How can I check the status of my order?</button>
+<div  id="x" class="panel">
+  <p>You can check the status of your order at any time by logging into your account and viewing 'My Latest Order'.You will be kept up to date at every stage of your order via email. Upon payment, you will receive an order confirmation email. We will also email you when we have dispatched your order; we aim to do this on the same, or next, working day.</p>
+</div>
+
+<button class="accordion">Can I save my payment details for faster re-ordering?</button>
+<div class="panel">
+  <p>Yes, you will be given the option to save your card details after you complete your order. This means that you can quickly checkout by selecting your saved card and confirming the CV2 (the three digits on the signature strip of your card). Your card details are stored securely with Barclaycard, one of the largest global payment processing companies who use the highest levels of security and encryption.</p>
+</div>
+
+<button class="accordion">When will my card be charged?</button>
+<div class="panel">
+  <p>When you confirm your order, we will authorise a payment for your order amount from your bank. We will not charge your card at this time, however, your bank may prevent you from spending this money until the status for your order is updated. When your order is dispatched, your card will be charged. If for whatever reason, our medical team decides that we are unable to make a supply of medication, we will cancel the authorisation on your card and you will not be charged.</p>
+</div>
+
+<button class="accordion">When will my card be charged?</button>
+<div class="panel">
+  <p>When you confirm your order, we will authorise a payment for your order amount from your bank. We will not charge your card at this time, however, your bank may prevent you from spending this money until the status for your order is updated. When your order is dispatched, your card will be charged. If for whatever reason, our medical team decides that we are unable to make a supply of medication, we will cancel the authorisation on your card and you will not be charged.</p>
+</div>
+<button class="accordion">Can I order medications other than those listed?</button>
+<div class="panel">
+  <p>When you confirm your order, we will authorise a payment for your order amount from your bank. We will not charge your card at this time, however, your bank may prevent you from spending this money until the status for your order is updated. When your order is dispatched, your card will be charged. If for whatever reason, our medical team decides that we are unable to make a supply of medication, we will cancel the authorisation on your card and you will not be charged.</p>
+</div>
+<button class="accordion">Why do I have to answer questions to purchase some medicines?</button>
+<div class="panel">
+  <p>When you confirm your order, we will authorise a payment for your order amount from your bank. We will not charge your card at this time, however, your bank may prevent you from spending this money until the status for your order is updated. When your order is dispatched, your card will be charged. If for whatever reason, our medical team decides that we are unable to make a supply of medication, we will cancel the authorisation on your card and you will not be charged.</p>
+</div>
+
+
+
+</div>
+
+</div>	
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+		<!--footer -->
+	
+	
+
+
+	<div class="footer">
+	     <div class="container">
+		     <div class="row">
+                   <div class="footer-col-1">
+			               <h3>Contact Details</h3>
+							<pre><img  src="images/phone1.png" width ="15" Height ="15">  0915869875<br><img  src="images/contact_us.jpg" width ="15" Height ="15">  Contact Us<br><img  src="images/location.png" width ="15" Height ="15">  Boston street,NewYork City.</pre>
+							<br>
+							<br>
+							<h3>Sign Up for our Newsletter</h3>
+							<input type= "text" placeholder="Email" ></input><br><br>
+							<input  class ="nBtn" type="submit" value="Submit" style=" width: 175px; left: 250; top: 250;">
+						
+					</div>
+				   <div class="footer-col-2">
+			                <h3>Contact form</h3><br>
+							<h3>Sign Up for our News letter</h3>
+							<input type= "text" placeholder="Name" ></input><br><br>
+							<input type= "text" placeholder="Email" ></input><br><br>
+							<input type= "text" placeholder="Message" ></input><br><br><br>
+							<input class ="nBtn" type="submit" value="Submit" style=" width: 175px; left: 250; top: 250;">
+					
+			       </div>
+				   <div class="footer-col-3">
+			                <h3>Useful Links</h3>
+							<ul> 
+							       <li>Coupons</li>
+								   <li>Blog Post</li>
+								   <li>Return Policy</li>
+								   <li>Join Affiliate</li>
+							
+							</ul>
+							
+			       </div>
+				   <div class="footer-col-4">
+				   
+				   <img src="images/i13.jpg" style="width:70px; height:60px;margin-top:20px; border-radius:60%;" class="offer-img"><br>
+			                Opening Timings<br>
+						 Mon-Fri 9.00 am-5.00 pm<br>
+						     Sat 9.00 am-8.00 pm<br>
+							 Sun 9.00 am-4.00 pm<br>
+					 </div>
+				   
+				   
+			       </div>
+			 </div>
+			 <hr>
+			 <!--credit -->
+			 <div class="brands">
+	     <div class="small-container">
+		     <div class="row">
+                   <div class="col-5">
+			                <img src="images/discover.jpg" class="offer-img">
+			       </div>
+				   <div class="col-5">
+			                <img src="images/American.jpg" class="offer-img">
+			       </div>
+				   <div class="col-5">
+			                <img src="images/master.jpg" class="offer-img">
+			       </div>
+				   <div class="col-5">
+			                <img src="images/visa.jpg" class="offer-img">
+			       </div>
+			 </div>
+		 </div>
+	</div>
+	<hr>
+			 <p class="copyright">Copyright 2020 Madu Play Store</p>
+		 </div>
+	</div>
+	
+	<div class="social-icons">
+	     
+		 <img src="images/apple.png" alt ="vcbhjnc">
+		 <img src="images/facebook.png">
+		 <img src="images/linkin.png">
+		 <img src="images/twitter.png">
+	 
+	 </div>
+	
+	
+</body>
+</html>
